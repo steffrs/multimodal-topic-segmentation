@@ -1,0 +1,10 @@
+numpy==2.1.2
+PyYAML==6.0.1
+scikit-learn==1.5.0
+segeval==2.0.11
+transformers==4.46.3
+torch==2.6.0
+torchaudio==2.6.0
+soundfile==0.12.1
+nltk==3.8.1
+tqdm==4.67.3

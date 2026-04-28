@@ -1,0 +1,22 @@
+{
+  "seed": 0,
+  "batch_size": 1,
+  "accumulate_steps": 16,
+  "max_epochs": 15,
+  "eval_after_steps": null,
+  "patience": 2,
+  "early_stop_on": "f1",
+  "learning_rate": 2.5e-05,
+  "loss_pos_weight": 3.0,
+  "use_focal_loss": false,
+  "loss_alpha": 0.8,
+  "loss_gamma": 2.0,
+  "regularization": 0.001,
+  "num_warmup_steps": 50,
+  "max_len": 1024,
+  "semantic_model_checkpoint": "sentence-transformers/all-MiniLM-L6-v2",
+  "acoustic_model_checkpoint": "facebook/wav2vec2-base",
+  "chunk_seconds": 2.0,
+  "boundary_seconds": 1.0,
+  "intermediate_output_dim": 768
+}

@@ -1,0 +1,2 @@
+checkpoints/multi-seg/model.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/multi-seg_multilingual/model.pt filter=lfs diff=lfs merge=lfs -text
