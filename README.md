@@ -1,5 +1,7 @@
 # multimodal-topic-segmentation
-Repository for the paper "Reading Between the Waves: Robust Topic Segmentation Using Inter-Sentence Audio Features" (ICASSP 2026).
+Repository for the paper 
+[Reading Between the Waves: Robust Topic Segmentation Using Inter-Sentence Audio Features](https://ieeexplore.ieee.org/document/11460496) 
+(ICASSP 2026).
 
 The repository contains code for inference and evaluation of the topic segmentation method proposed in the paper.
 This includes model checkpoints ([`checkpoints/`](./checkpoints)) 
@@ -61,13 +63,15 @@ These can be provided in either of the following two formats (top-level json fie
 ## Citation
 If you find this work useful, please cite our paper:
 ```bibtex
-@misc{freisinger2026readingwavesrobusttopic,
-      title={Reading Between the Waves: Robust Topic Segmentation Using Inter-Sentence Audio Features}, 
-      author={Steffen Freisinger and Philipp Seeberger and Tobias Bocklet and Korbinian Riedhammer},
-      year={2026},
-      eprint={2602.06647},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2602.06647}, 
+@INPROCEEDINGS{11460496,
+  author={Freisinger, Steffen and Seeberger, Philipp and Bocklet, Tobias and Riedhammer, Korbinian},
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Reading Between the Waves: Robust Topic Segmentation Using Inter-Sentence Audio Features}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={17857-17861},
+  keywords={Payloads;MODIS;Feeds;Digital audio broadcasting;Broadcasting;Central Processing Unit;Videos;Digital audio broadcasting;Radio access networks;Regional area networks;topic segmentation;speech;multi-modal},
+  doi={10.1109/ICASSP55912.2026.11460496}
 }
 ```
